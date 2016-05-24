@@ -1,0 +1,47 @@
+<div id="root-view">
+
+		<div id="main-content">
+
+			<h3 id="title">Trailsss...</h3>		
+
+
+			<div id="about-box" class="jumbotron">				
+
+
+				<div id="ic-trails"></div>
+				<p>Trails is an Advanced Tracking App for Android providing Advanced Features like Live Tracking, Offline Tracking, Tracking a Friend, Find Lost Phone. It's free and always will be.</p>
+				<a href="#" >Developed By Rutvik Mehta</a>
+
+
+			</div>		
+
+			<div id="login-box" class="jumbotron">				
+
+
+				<input type="text" ng-model="user.userName" style="margin-bottom:15px; margin-top:25px;" placeholder="Username" class="form-control" autofocus/>
+
+				<input type="password" ng-model="user.password" style="margin-bottom:25px;" placeholder="Password" class="form-control"/>
+
+				<a href="" ng-click="showAbout()" style="
+				margin: 10px 0px 0px 5px;
+				padding: 0;
+				float: left;
+				font-size: 13px;
+				font-family: 'Roboto', sans-serif;
+				color: #ccc;
+				">What is Trails?</a>
+
+				<button id="btn-login" class="btn btn-success" ng-click="login()" type="submit" aria-hidden="true">Login&nbsp;<span class="glyphicon glyphicon-log-in"></span></button>
+
+
+			</div>
+
+			<div id="missing-credentials" class="alert alert-danger" role="alert">
+				<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				<span class="sr-only">Error:</span>
+				Enter a valid user name and password
+			</div>
+
+		</div>
+
+</div>
